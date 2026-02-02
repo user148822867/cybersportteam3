@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Domine:wght@400..700&family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&family=Tiny5&family=UnifrakturMaguntia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.sectiontitle{
+    font-size: 30px;
+    font-weight: 700;
+    color: #65DAFF;
+    margin: 30px 0;
+}
+.sevcontainer{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+    background-color: #222222;
+    padding: 20px;
+}
+.sevcontainer hr{
+    width: 25%;
+    margin: 30px 37% 20px 37%;
+}
+.reg p{
+    font-size: 30px;
+    color: white;
+    width: 40%;
+    font-weight: bold;
+    line-height: 90px;
+    display: inline-block;
+}
+.reg a{
+    width: 30%;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+}
+.server{
+    text-align: center;
+}
+.reg{
+    background-color: #65DAFF;
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+}
+.sectiontext{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    color: white;
+}
+body{
+    background-color: #222222;
+    cursor: default;
+}
+.navmenu{
+    position: fixed;
+    background-color: #222222;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+    z-index: 100;
+    line-height: 80px;
+}
+.navitem{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.navitem:hover{
+    color: #65DAFF;
+    text-shadow: 0 0 6px #65DAFF; 
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navigation{
+    float: right;
+}   
+.banner{
+    height: 80vh;
+    background: url("img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg") center/cover no-repeat;
+    position: relative;
+}
+.bannercontent{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bannertitle{
+    font-size: 70px;
+    color: rgb(65, 65, 65);
+    opacity: 0.8;
+    margin-left: 20px;
+}
+.bannersubtitle{
+    font-size: 30px;
+    color: rgb(65, 65, 65);
+    opacity: 0.8;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.bannerbutton{
+    display: block;
+    color: white;
+    background-image: linear-gradient(90deg, rgb(0, 255, 213), rgb(83, 229, 255));
+    text-decoration: none;
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+}
+.bannerbutton:hover{
+    transform: scale(1.2);
+}
+.bannerbutton:active{
+    background-image: linear-gradient(90deg, #347083, #388065);
+}
+.about{
+    height: 40vh;
+    text-align: center;
+}
+.aboutcard{
+    display: inline-block;
+    width: 24%;
+    margin-top: 80px;
+    vertical-align: top;
+    text-align: center;
+    height: 160px;
+}
+.aboutcardtitle{
+    margin-top: 20px;
+    color: rgb(83, 229, 255);
+    font-size: 30px;
+
+}
+.aboutcardimg{
+    height: 100px;
+}
+.gamescontainer{
+    margin-top: 80px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+    padding: 10px;
+    text-align: center;
+}
+.gamescardimg{
+    display: inline-block;
+    background: url("img/csgo.jpg") left/cover no-repeat;
+    width: 49%;
+    height: 350px;
+    vertical-align: top;
+}
+.gamescardimg2{
+    display: inline-block;
+    background: url("img/dota2.jpg") left/cover no-repeat;
+    width: 49%;
+    height: 350px;
+    vertical-align: top;
+}
+.gamescardimg3{
+    display: inline-block;
+    background: url("img/apex.jpg") left/cover no-repeat;
+    width: 49%;
+    height: 350px;
+    vertical-align: top;
+}
+.gamecardcontent{
+    display: inline-block;
+    width: 49%;
+    min-height: 350px;
+    vertical-align: top;
+}
+.gametitle{
+    color: rgb(0, 255, 213);
+    font-size: 25px;
+}
+.gamedevider{
+    width: 120px;
+    background: rgb(0, 255, 213);
+    height: 3px;
+    border: none;
+    margin: 20px 0;
+}
+.gamecardcontent{
+    text-align: left;
+    padding: 10px;
+}
+.competitive{
+    text-align: center;
+    margin: 80px 0;
+}
+
