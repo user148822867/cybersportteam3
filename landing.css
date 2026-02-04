@@ -204,3 +204,76 @@ body{
     margin: 80px 0;
 }
 
+@media(max-width: 1200px){
+    .navigation{
+        float: none;
+    }
+    .navitem{
+        display: block;
+        line-height: 40px;
+    }
+    .navmenu{
+        height: fit-content;
+        padding: 5px;
+        top: 0;
+    }
+    .banner{
+        height: 100vh;
+        margin-top: 200px;
+    }
+    .bannertitle{
+        font-size: 40px;
+    }
+    .bannersubtitle{
+        font-size: 20px;
+    }
+    .bannercontent{
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .aboutcardimg{
+        height: 50px;
+    }
+    .aboutcardtitle{
+        font-size: 15px;
+    }
+    .bannerbutton{
+        margin: 20px auto;
+    }
+    .about{
+        height: 25vh;
+    }
+    .gamescardimg{
+        display: block;
+        width: 100%;
+        background-position: center;
+    }
+    .gamescardimg2{
+        display: block;
+        width: 100%;
+        background-position: center;
+    }
+    .gamescardimg3{
+        display: block;
+        width: 100%;
+        background-position: center;
+    }
+    .gamecardcontent{
+        width: 100%;
+        min-height: 200px;
+    }
+    .register{
+        text-decoration: none;
+    }
+    .reg p{
+        display: block;
+        width: 100%;
+        line-height: 50px;
+    }
+    .reg a{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
